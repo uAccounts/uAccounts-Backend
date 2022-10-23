@@ -2,6 +2,15 @@
 
 - To run this code first you need to install Dependencies..
 
+## Running with docker
+
+Run the commands below to run backend service inside a docker container.
+
+`docker build --tag uAccounts/backend:0.1 .`
+`docker run -p 8080:8080 uAccounts/backend:0.1`
+
+Go to http://localhost:8080/
+
 ## Dependencies
 
 Just run this command to the vscode terminal when you cloned the repository.
