@@ -6,8 +6,8 @@
 
 Run the commands below to run backend service inside a docker container.
 
-`docker build --tag uAccounts/backend:0.1 .`
-`docker run -p 8080:8080 uAccounts/backend:0.1`
+`docker build --tag uaccounts/backend:0.1 .`
+`docker run -it -p 8080:8080 uaccounts/backend:0.1`
 
 Go to http://localhost:8080/
 
